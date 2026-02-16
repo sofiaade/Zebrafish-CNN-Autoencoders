@@ -1,0 +1,116 @@
+{
+  "train": {
+    "files": [
+      "data/raw/control/ZS-6.tif",
+      "data/raw/anesthetic/ZS-10.tif",
+      "data/raw/anesthetic/ZS-2.tif",
+      "data/raw/anesthetic/ZS-8.tif",
+      "data/raw/stimulant/ZS-5.tif",
+      "data/raw/stimulant/ZS-1.tif",
+      "data/raw/anesthetic/ZS-7.tif",
+      "data/raw/stimulant/ZS-4.tif",
+      "data/raw/stimulant/ZS-10.tif",
+      "data/raw/anesthetic/ZS-1.tif",
+      "data/raw/anesthetic/ZS-9.tif",
+      "data/raw/control/ZS-5.tif",
+      "data/raw/anesthetic/ZS-5.tif",
+      "data/raw/control/ZS-8.tif",
+      "data/raw/stimulant/ZS-7.tif",
+      "data/raw/control/ZS-9.tif",
+      "data/raw/control/ZS-2.tif",
+      "data/raw/stimulant/ZS-8.tif",
+      "data/raw/control/ZS-1.tif",
+      "data/raw/control/ZS-3.tif",
+      "data/raw/stimulant/ZS-3.tif"
+    ],
+    "labels": [
+      2,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      2,
+      0,
+      2,
+      1,
+      2,
+      2,
+      1,
+      2,
+      2,
+      1
+    ],
+    "conditions": [
+      "control",
+      "anesthetic",
+      "anesthetic",
+      "anesthetic",
+      "stimulant",
+      "stimulant",
+      "anesthetic",
+      "stimulant",
+      "stimulant",
+      "anesthetic",
+      "anesthetic",
+      "control",
+      "anesthetic",
+      "control",
+      "stimulant",
+      "control",
+      "control",
+      "stimulant",
+      "control",
+      "control",
+      "stimulant"
+    ]
+  },
+  "val": {
+    "files": [
+      "data/raw/control/ZS-10.tif",
+      "data/raw/anesthetic/ZS-3.tif",
+      "data/raw/anesthetic/ZS-4.tif",
+      "data/raw/stimulant/ZS-6.tif"
+    ],
+    "labels": [
+      2,
+      0,
+      0,
+      1
+    ],
+    "conditions": [
+      "control",
+      "anesthetic",
+      "anesthetic",
+      "stimulant"
+    ]
+  },
+  "test": {
+    "files": [
+      "data/raw/control/ZS-4.tif",
+      "data/raw/stimulant/ZS-2.tif",
+      "data/raw/anesthetic/ZS-6.tif",
+      "data/raw/control/ZS-7.tif",
+      "data/raw/stimulant/ZS-9.tif"
+    ],
+    "labels": [
+      2,
+      1,
+      0,
+      2,
+      1
+    ],
+    "conditions": [
+      "control",
+      "stimulant",
+      "anesthetic",
+      "control",
+      "stimulant"
+    ]
+  }
+}
